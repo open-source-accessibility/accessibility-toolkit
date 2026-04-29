@@ -1,0 +1,130 @@
+name: Accessibility issue
+description: Report an accessibility barrier or bug on Accessibility Toolkit.
+title: "[a11y]: <short description of the issue>"
+labels: ["accessibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an accessibility issue. Reports like yours help us make Accessibility Toolkit usable by everyone.
+
+        Please share as much as you're comfortable with — partial reports are still useful. If you're using assistive technology, feel free to describe what you experienced in your own words.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A brief description of the accessibility barrier you encountered.
+      placeholder: "Example: Skip-to-content link is not visible on focus, so I can't tell when it's active."
+    validations:
+      required: true
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: The URL of the page where you encountered the issue.
+      placeholder: "https://accessibility-toolkit.org/..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+      placeholder: "I expected the focus indicator to be clearly visible when I tabbed to the link."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened?
+      placeholder: "There was no visible focus indicator, and my screen reader didn't announce the link."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: |
+        How can we reproduce the issue? A screen recording or screenshot is optional but very helpful.
+      placeholder: |
+        1. Go to https://accessibility-toolkit.org/...
+        2. Press Tab to move focus to the first interactive element.
+        3. Observe that...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity (will be revised and adjusted during triage as needed)
+      description: |
+        How much does this issue affect your ability to use the site?
+        - **Critical:** Prevents you from completing a core task (for example, you cannot read an article at all).
+        - **High:** Significant difficulty, but a workaround exists.
+        - **Medium:** Annoyance or inconsistent experience.
+        - **Low:** Minor issue with minimal impact on usability.
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and version
+      placeholder: "macOS 14.5, Windows 11, iOS 17, Android 14, Ubuntu 22.04"
+    validations:
+      required: false
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: "Chrome 124, Firefox 125, Safari 17.4, Edge 124"
+    validations:
+      required: false
+
+  - type: input
+    id: assistive-tech
+    attributes:
+      label: Assistive technology and version
+      description:  If assistive technology was used during the discovery of this bug, please tell us which one(s) and which version(s).
+      placeholder: "VoiceOver (macOS 14.5), NVDA 2024.1, JAWS 2024, TalkBack on Android 14, Dragon NaturallySpeaking 16"
+    validations:
+      required: false
+
+  - type: textarea
+    id: wcag
+    attributes:
+      label: Related WCAG criteria (optional)
+      description: |
+        If you know which [WCAG](https://www.w3.org/TR/WCAG22/) success criteria this relates to, please share. Don't worry if you're not sure — we'll figure it out during triage.
+      placeholder: "2.4.7 Focus Visible, 1.4.3 Contrast (Minimum)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Anything else we should know? Screenshots, recordings, related issues, or workarounds you've tried.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](/CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow this project's Code of Conduct.
+          required: true
