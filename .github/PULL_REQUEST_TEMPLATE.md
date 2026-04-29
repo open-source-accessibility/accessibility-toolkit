@@ -17,7 +17,7 @@ Accessibility is a priority for Accessibility Toolkit — please review our [Acc
 
 ### UI / code changes (only if you touched markup, styles, or interactive behavior)
 - [ ] Keyboard navigation works end-to-end (everything interactive is reachable and operable without a mouse).
-- [ ] Focus states are visible and follow a logical tab order.
+- [ ] Focus states are visible and follow reading order.
 - [ ] Forms have associated labels, and error messages are programmatically associated with their fields.
 - [ ] Color isn't the only indicator of state, error, or meaning.
 - [ ] Reduced motion is respected if animations were added (`prefers-reduced-motion`).
