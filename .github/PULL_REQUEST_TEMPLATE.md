@@ -8,9 +8,9 @@ Accessibility is a priority for Accessibility Toolkit — please review our [Acc
 ### Content changes (any change to articles, README, or docs)
 - [ ] Headings follow a logical hierarchy and don't skip levels (`#`, `##`, `###`, …).
 - [ ] Link text is unique and descriptive (no "click here" / "read more").
-- [ ] Images have meaningful alt text, or are marked decorative when appropriate ([alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)).
+- [ ] Images have meaningful alternative text or are marked decorative when appropriate ([alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)).
 - [ ] Complex images and diagrams have a nearby text alternative.
-- [ ] Real lists are used instead of manually typed numbering.
+- [ ] Semantic lists are used instead of manually typed numbering.
 - [ ] Plain language is used; abbreviations are expanded on first use.
 - [ ] Meaning isn't conveyed by color, position, or styling alone.
 - [ ] Any embedded video has captions and a transcript.
