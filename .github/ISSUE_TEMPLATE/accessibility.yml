@@ -62,7 +62,7 @@ body:
   - type: dropdown
     id: severity
     attributes:
-      label: Severity
+      label: Severity (will be revised and adjusted during triage as needed)
       description: |
         How much does this issue affect your ability to use the site?
         - **Critical:** Prevents you from completing a core task (for example, you cannot read an article at all).
@@ -97,7 +97,7 @@ body:
     id: assistive-tech
     attributes:
       label: Assistive technology and version
-      description: If you use assistive technology, please tell us which one and which version.
+      description:  If assistive technology was used during the discovery of this bug, please tell us which one(s) and which version(s).
       placeholder: "VoiceOver (macOS 14.5), NVDA 2024.1, JAWS 2024, TalkBack on Android 14, Dragon NaturallySpeaking 16"
     validations:
       required: false
