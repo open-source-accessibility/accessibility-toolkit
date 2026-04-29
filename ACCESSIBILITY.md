@@ -14,7 +14,8 @@ This document explains our accessibility commitment, how contributors can help u
   - **Translations** — languages declare which language they are in code so assistive tech can pronounce them correctly.
 - **Known limitations:**
   - Some older articles may not yet meet every guideline (for example, missing alt text or non-descriptive link text). We are working through these as we update content.
-  - Embedded third-party content (videos, external images) may not always include captions or transcripts. Please open an issue if you find one.
+  - Embedded third-party content (videos, external images) may not always include captions or transcripts.
+  - **Note**: Please open an accessibility issue if you find one.
 
 ## Contributor requirements
 
