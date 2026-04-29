@@ -10,8 +10,8 @@ This document explains our accessibility commitment, how contributors can help u
 - **Primary priorities:**
   - **Keyboard support** — every interactive element must be reachable and operable with a keyboard alone, with a visible focus indicator and a logical tab order.
   - **Screen reader support** — content uses semantic HTML and a logical heading hierarchy so it can be navigated with VoiceOver, NVDA, JAWS, and similar tools.
-  - **Readable content** — we use plain language, descriptive link text, sufficient color contrast, real lists, and meaningful alt text.
-  - **Translations** — translated articles declare their language so assistive tech can pronounce them correctly.
+  - **Readable content** — we use plain language when possible, descriptive link text, sufficient color contrast, real lists, and meaningful alt text.
+  - **Translations** — languages declare which language they are in code so assistive tech can pronounce them correctly.
 - **Known limitations:**
   - Some older articles may not yet meet every guideline (for example, missing alt text or non-descriptive link text). We are working through these as we update content.
   - Embedded third-party content (videos, external images) may not always include captions or transcripts. Please open an issue if you find one.
