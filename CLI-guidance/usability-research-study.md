@@ -1,0 +1,11 @@
+# Building toward community-led CLI accessibility standards through inclusive user research 
+
+As AI-powered development tools become more deeply integrated into terminals and command-line interfaces, accessibility in CLI environments is becoming increasingly important. Yet unlike the web and mobile ecosystems, terminals and CLIs still lack widely adopted accessibility standards. To help address that gap, GitHub partnered on inclusive user research to better understand how people with disabilities experience command-line tools today, where barriers persist, and what improvements could make CLI workflows more accessible by design. 
+
+This research was shaped by a broader question raised at the Open Source Accessibility Summit after Andy Feller, Software Engineer at GitHub, gave a lightning talk on accessible CLIs: how do we build delightful, accessible command-line tools in a terminal ecosystem with no shared standards and only loose grassroots conventions? Rather than answer that question in theory, GitHub treated it as a research opportunity and engaged assistive technology users directly. 
+
+The resulting Community-Led CLI Accessibility Standards Usability Research Study surfaced practical insights for CLI authors, terminal developers, and the broader open source ecosystem. Across interviews with seven participants using screen readers, magnification, and voice input tools, the study showed that accessible CLIs can be a powerful and efficient path for many users, but only when outputs are structured, settings are persistent, feedback is predictable, and documentation reflects the realities of assistive technology use. 
+
+For GitHub, this work connects directly to our commitment to improve accessibility in open source at scale. It supports our GAAD pledge by helping remove barriers for contributors with disabilities, encouraging more accessible mainstream open source tooling, and contributing upstream knowledge that can benefit developers and users across the ecosystem.
+
+More details will be resealed soon...
