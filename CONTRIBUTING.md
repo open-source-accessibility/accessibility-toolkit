@@ -14,6 +14,7 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 1. [Fork][fork] and clone the repository
 1. Create a new branch: `git checkout -b my-branch-name`
+1. Follow the project's [accessibility contributor requirements](https://github.com/open-source-accessibility/accessibility-toolkit/blob/main/ACCESSIBILITY.md#contributor-requirements)
 1. Make your change
 1. Push to your fork and [submit a pull request][pr]
 1. Pat yourself on the back and wait for your pull request to be reviewed and merged.
