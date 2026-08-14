@@ -68,12 +68,24 @@ If you run into an accessibility barrier, please let us know — we treat access
 - **Medium:** Annoyance or inconsistent experience.
 - **Low:** Minor issue with minimal impact on usability.
 
-### What to expect
+### Resolution expectations
 
-- We will acknowledge accessibility reports as quickly as we can.
-- We will be honest about status and timelines (for example, "We're working on this — tracking in #123").
-- Where possible, we will suggest a workaround while a fix is in flight.
-- We may follow up to confirm a fix works for you before we close the issue.
+Resolution expectations help reporters understand when action is likely and help maintainers prioritize issues consistently. After triage, we assign each issue a severity, owner, and target resolution date.
+
+- **Critical:** Resolve within 30 days.
+- **High:** Resolve within 60 days.
+- **Medium:** Resolve within 90 days.
+- **Low:** Resolve within 90 days.
+
+These targets begin when the issue is opened. If we cannot meet a target, we will explain the delay, share any available workaround, and provide a revised target date.
+
+### How we respond
+
+- We will acknowledge accessibility reports promptly, respectfully, and constructively, treating them as valuable expertise.
+- We will communicate the issue's severity, owner, status, and target resolution date.
+- Where possible, we will suggest a workaround while a fix is in progress.
+- We will provide updates when the status or expected timeline changes (for example, "We're working on this — tracking in #123"). 
+- We may ask the reporter to confirm that a fix resolves the barrier before closing the issue.
 
 ## Feedback
 
