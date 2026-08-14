@@ -64,18 +64,18 @@ If you run into an accessibility barrier, please let us know — we treat access
 ### Severity
 
 - **Critical:** Prevents you from completing a core task (for example, you cannot read an article at all).
-- **High:** Significant difficulty, but a workaround exists.
-- **Medium:** Annoyance or inconsistent experience.
-- **Low:** Minor issue with minimal impact on usability.
+- **Serious:** Significant difficulty, but a workaround exists.
+- **Moderate:** Annoyance or inconsistent experience.
+- **Minor:** Minor issue with minimal impact on usability.
 
 ### Resolution expectations
 
 Resolution expectations help reporters understand when action is likely and help maintainers prioritize issues consistently. After triage, we assign each issue a severity, owner, and target resolution date.
 
 - **Critical:** Resolve within 30 days.
-- **High:** Resolve within 60 days.
-- **Medium:** Resolve within 90 days.
-- **Low:** Resolve within 90 days.
+- **Serious:** Resolve within 60 days.
+- **Moderate:** Resolve within 90 days.
+- **Minor:** Resolve within 90 days.
 
 These targets begin when the issue is opened. If we cannot meet a target, we will explain the delay, share any available workaround, and provide a revised target date.
 
