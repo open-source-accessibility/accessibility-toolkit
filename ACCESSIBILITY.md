@@ -24,7 +24,14 @@ If you are contributing content or code, please follow these guardrails so we do
 - **Testing**
   - For UI changes, test with an automated accessibility tool (such as [axe DevTools](https://www.deque.com/axe/devtools/) or the [GitHub Accessibility Scanner](https://github.com/github/accessibility-scanner)).
   - Do at least one keyboard-only pass on any changes involving interactive UI elements.
+      - Tab order is logical (no jumps, no traps, reaches all interactive controls).
+      - Visible focus indicator is always present and has sufficient contrast.
+      - All actions work by keyboard (Tab/Shift+Tab, Enter, Space, arrow keys where expected).
+      - No keyboard trap (can move into and out of modals, menus, popovers, editors).
   - Spot-check screen reader behavior for new components or significant content changes.
+      - Controls have clear, accessible labels (programmatic name that matches the action/field purpose).
+      - Custom controls expose proper semantics/state (role, name, value; toggles/expanded/selected announced).
+      - Dynamic updates are announced appropriately (errors, async status, validation, toasts via ARIA live regions as needed).
 - **Documentation and content**
   - Use a logical heading hierarchy (do not skip levels).
   - Use unique, descriptive link text (avoid "click here" / "read more").
