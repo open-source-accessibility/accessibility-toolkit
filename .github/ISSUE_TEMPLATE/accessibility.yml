@@ -102,13 +102,21 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: input
     id: wcag
     attributes:
       label: Related WCAG criteria (optional)
       description: |
         If you know which [WCAG](https://www.w3.org/TR/WCAG22/) success criteria this relates to, please share. Don't worry if you're not sure — we'll figure it out during triage.
       placeholder: "2.4.7 Focus Visible, 1.4.3 Contrast (Minimum)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: code-sample
+    attributes:
+      label: Code sample (optional)
+      description: Provide relevant code snippet if possible. 
     validations:
       required: false
 
