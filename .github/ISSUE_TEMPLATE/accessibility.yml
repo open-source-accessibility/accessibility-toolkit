@@ -66,14 +66,14 @@ body:
       description: |
         How much does this issue affect your ability to use the site?
         - **Critical:** Prevents you from completing a core task (for example, you cannot read an article at all).
-        - **High:** Significant difficulty, but a workaround exists.
-        - **Medium:** Annoyance or inconsistent experience.
-        - **Low:** Minor issue with minimal impact on usability.
+        - **Serious:** Significant difficulty, but a workaround exists.
+        - **Moderate:** Annoyance or inconsistent experience.
+        - **Minor:** Minor issue with minimal impact on usability.
       options:
         - Critical
-        - High
-        - Medium
-        - Low
+        - Serious
+        - Moderate
+        - Minor
     validations:
       required: true
 
