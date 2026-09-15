@@ -74,6 +74,7 @@ body:
         - Serious
         - Moderate
         - Minor
+      default: 3
     validations:
       required: true
 
