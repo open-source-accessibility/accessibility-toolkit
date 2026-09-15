@@ -19,6 +19,14 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: demo
+    attributes:
+      label: Demo, screenshot or video
+      description: Upload or provide a link to a demo, screenshot, or video that illustrates the issue. You can drag and drop or paste files into this field.
+    validations:
+      required: false
+
   - type: input
     id: page-url
     attributes:
@@ -117,10 +125,10 @@ body:
     id: additional-context
     attributes:
       label: Additional context
-      description: Anything else we should know? Screenshots, recordings, related issues, or workarounds you've tried.
+      description: Anything else we should know? Related issues, code samples, or workarounds you've tried.
     validations:
       required: false
-
+  
   - type: checkboxes
     id: code-of-conduct
     attributes:
