@@ -1,12 +1,14 @@
 # Accessibility
-<!-- Include a brief statement describing why accessibility matters to your project, who should be able to use and contribute to it, and what this document covers (such as your accessibility commitments, contributor expectations, and issue-reporting process). -->
+<!-- Include a brief statement describing why accessibility matters to your project, who should be able to use and contribute to it, and what this document covers, such as your accessibility commitments, contributor expectations, and issue-reporting process. Write for people who may read this after encountering a barrier. Use  lain
+language and describe user experiences rather than relying on legal language, technical jargon, or standards codes. -->
 
 Accessibility is a core priority for **open-source projects**. We want everyone — including people with disabilities and people using assistive technology — to be able to read, navigate, and contribute to this site.
 
 This document explains our accessibility commitment, how contributors can help us uphold it, and how to report accessibility issues.
 
 ## Priorities
-<!-- Describe the outcomes the project prioritizes and how it works toward them. If you name a WCAG level as an accessibility target, make clear that it is an aspirational goal rather than a verified conformance claim. Only claim conformance after an evaluation, and identify the evaluated scope, date, method, and evaluator. Also describe the areas you prioritize (such as keyboard, screen reader, content, or language support). -->
+<!-- Describe the outcomes the project prioritizes and how it works toward them. If you name a WCAG level as an accessibility target, make clear that it is an aspirational goal rather than a verified conformance claim. Only claim conformance after an evaluation, and identify the evaluated scope, date, method, and evaluator. Also describe the areas you prioritize, such as keyboard, screen reader, content, or language support. -->
+
 
 - **Accessibility target:** We work toward [WCAG 2.2 Level AA](https://www.w3.org/TR/WCAG22). This target guides our work but is not a claim of verified conformance.
 - **Keyboard support** — every interactive element must be reachable and operable with a keyboard alone, with a visible focus indicator and a logical tab order.
@@ -42,7 +44,7 @@ If you are contributing content or code, please follow these guardrails so we do
   - Resolve flagged issues, or document why a violation cannot be addressed in the PR description.
 
 ## Reporting accessibility issues
-<!--  Provide a direct, accessible way to report a barrier or request help. Invite useful context such as the affected task, URL, observed behavior, browser, operating system, and assistive technology. Make screenshots or recordings optional and do not require disability disclosure. -->
+<!-- Provide a direct, accessible way to report a barrier or request help. Invite useful context such as the affected task, URL, observed behavior, browser, operating system, and assistive technology. Make screenshots or recordings optional and do not require disability disclosure. -->
 
 If you run into an accessibility barrier, please let us know — we treat accessibility reports as expertise, not complaints.
 
@@ -56,7 +58,7 @@ If you run into an accessibility barrier, please let us know — we treat access
    - Severity, using the [defined taxonomy](#severity).
 
 ### Severity
-<!-- Define the severity levels your project uses and give practical examples based on how strongly a barrier affects a user's ability to complete a task. Keep the labels consistent with your issue template and resolution targets. -->
+<!-- If your project uses severity levels, define them and give practical examples based on how strongly a barrier affects a user's ability to complete a task. Keep labels consistent with your issue template and resolution targets if those processes exist. Maintainers can assign or confirm severity during triage; reporters do not need to. -->
 
 - **Critical:** Prevents you from completing a core task (for example, you cannot read an article at all).
 - **Serious:** Significant difficulty, but a workaround exists.
@@ -85,7 +87,7 @@ Resolution expectations help reporters understand when action is likely and help
 These targets begin when the issue is opened. If we cannot meet a target, we will explain the delay, share any available workaround, and provide a revised target date.
 
 ## Ownership and maintenance
-<!-- Identify the maintainer responsible for accessibility and describe the responsibilities to the project. -->
+<!-- Identify the team, role, or maintainer responsible for accessibility and describe their responsibilities to the project. Include the review cadence and how ownership transfers when responsibilities change. -->
 
 Accessibility is owned by **[maintainer name or role]**.
 
@@ -97,13 +99,6 @@ The accessibility owner is responsible for:
 - Tracking accessibility work and known barriers.
 - Sharing status updates and escalating unresolved accessibility risks to project maintainers.
 - Keeping the project's accessibility documentation current.
-
-
-
-
-
-
-<!-- any known limitations. For each limitation, describe its impact, any planned remediation, and how users can report related issues. -->
 
 ## Supported environments
 <!-- List the platforms, devices, browsers, input methods, and assistive technologies the project supports or has tested. Include versions where useful, note partial support, and avoid implying support for combinations that have not been evaluated. -->
@@ -121,11 +116,13 @@ Partial-support notes:
 
 ## Known limitations
 <!-- Describe known barriers in terms of the affected user experience, such as "videos do not have captions," rather than standards codes. Include available workarounds or equivalent access and link to tracked issues. If no limitations are currently documented, describe what has been tested instead of claiming that no barriers exist. -->
+
   - Some older articles may not yet meet every guideline (for example, missing alternative text or non-descriptive link text). We are working through these as we update content.
   - Embedded third-party content (videos, external images) may not always include captions or transcripts.
   
 **Note**: Please open an accessibility issue if you find one.
 
 ## Feedback
+<!-- Explain how users and contributors can suggest improvements to this statement or the project's accessibility practices. Direct active accessibility barriers to the reporting process above. -->
 
 Accessibility is an ongoing practice, not a one-time fix. If you have suggestions for improving this statement or our practices, please open an issue or a pull request. Thank you for helping make Accessibility Toolkit usable by everyone.
