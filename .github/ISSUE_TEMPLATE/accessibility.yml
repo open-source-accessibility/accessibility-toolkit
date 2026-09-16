@@ -19,6 +19,14 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: demo
+    attributes:
+      label: Demo, screenshot or video
+      description: Upload or provide a link to a demo, screenshot, or video that illustrates the issue. You can drag and drop or paste files into this field.
+    validations:
+      required: false
+
   - type: input
     id: page-url
     attributes:
@@ -66,14 +74,15 @@ body:
       description: |
         How much does this issue affect your ability to use the site?
         - **Critical:** Prevents you from completing a core task (for example, you cannot read an article at all).
-        - **High:** Significant difficulty, but a workaround exists.
-        - **Medium:** Annoyance or inconsistent experience.
-        - **Low:** Minor issue with minimal impact on usability.
+        - **Serious:** Significant difficulty, but a workaround exists.
+        - **Moderate:** Annoyance or inconsistent experience.
+        - **Minor:** Minor issue with minimal impact on usability.
       options:
         - Critical
-        - High
-        - Medium
-        - Low
+        - Serious
+        - Moderate
+        - Minor
+      default: 3
     validations:
       required: true
 
@@ -116,10 +125,10 @@ body:
     id: additional-context
     attributes:
       label: Additional context
-      description: Anything else we should know? Screenshots, recordings, related issues, or workarounds you've tried.
+      description: Anything else we should know? Related issues, code samples, or workarounds you've tried.
     validations:
       required: false
-
+  
   - type: checkboxes
     id: code-of-conduct
     attributes:
