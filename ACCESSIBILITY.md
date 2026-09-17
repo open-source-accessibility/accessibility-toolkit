@@ -68,11 +68,13 @@ If you run into an accessibility barrier, please let us know — we treat access
 ### How we respond
 <!-- Explain what reporters can expect after submitting an accessibility issue, including acknowledgement, status updates, workarounds, expected timelines, and opportunities to verify a fix. Use commitments your project can consistently uphold. -->
 
-- We will acknowledge accessibility reports promptly, respectfully, and constructively, treating them as valuable expertise.
-- We will communicate the issue's severity, owner, status, and target resolution date.
-- Where possible, we will suggest a workaround while a fix is in progress.
-- We will provide updates when the status or expected timeline changes (for example, "We're working on this — tracking in #123"). 
+- We will acknowledge the reporter's experience promptly, respectfully, and constructively  treating accessibility reports as valuable project expertise rather than complaints.
+- We will not require reporters to disclose a diagnosis or other personal information.
+- We will explain next steps, known limitations, and relevant dependencies.
+- Where possible, we will provide a workaround while a fix is in progress.
+- We will provide updates when the status or expected timeline changes (for example, "We're working on this — tracking in #123").
 - We may ask the reporter to confirm that a fix resolves the barrier before closing the issue.
+- We will thank the reporter for helping improve the project.
 
 ### Resolution expectations
 <!-- Describe how accessibility issues are prioritized and the target response or resolution time for each severity level. Explain when these timelines begin and how delays, workarounds, and revised dates will be communicated. -->
