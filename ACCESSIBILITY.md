@@ -39,6 +39,7 @@ If you are contributing content or code, please follow these guardrails so we do
   - For complex images or diagrams, include a text alternative nearby.
   - For videos, provide captions and a transcript.
   - Don't use color as the only way to convey meaning.
+  - Content reflows without loss of information or functionality (test at 200% and with narrow widths).
 - **CI/CD**
   - PRs may be blocked if they introduce accessibility violations detected by our linting or scanning workflows.
   - Resolve flagged issues, or document why a violation cannot be addressed in the PR description.
