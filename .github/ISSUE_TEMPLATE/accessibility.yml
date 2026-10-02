@@ -117,7 +117,7 @@ body:
     attributes:
       label: Code sample (optional)
       description: Provide relevant code snippet if possible. 
-    validations:
+    validations: 
       required: false
 
   - type: textarea
