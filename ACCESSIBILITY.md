@@ -34,9 +34,11 @@ If you are contributing content or code, please follow these guardrails so we do
       - Dynamic updates are announced appropriately (errors, async status, validation, toasts via ARIA live regions as needed).
 - **Documentation and content**
   - Use a logical heading hierarchy (do not skip levels).
+  - Use real list elements (not just formatted to look like a list; same with headings).
   - Use unique, descriptive link text (avoid "click here" / "read more").
   - Provide meaningful alternative text for images; refer to the [W3C alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/).
   - For complex images or diagrams, include a text alternative nearby.
+  - For tables, provide column and row headers.
   - For videos, provide captions and a transcript.
   - Don't use color as the only way to convey meaning.
   - Content reflows without loss of information or functionality (test at 200% and with narrow widths).
