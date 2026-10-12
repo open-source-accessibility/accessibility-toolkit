@@ -29,8 +29,10 @@ If you are contributing content or code, please follow these guardrails so we do
       - All actions work by keyboard (Tab/Shift+Tab, Enter, Space, arrow keys where expected).
       - No keyboard trap (can move into and out of modals, menus, popovers, editors).
   - Spot-check screen reader behavior for new components or significant content changes.
+      - Headings and landmarks are navigable.
       - Controls have clear, accessible labels (programmatic name that matches the action/field purpose).
       - Custom controls expose proper semantics/state (role, name, value; toggles/expanded/selected announced).
+      - Lists and list items are announced appropriately.
       - Dynamic updates are announced appropriately (errors, async status, validation, toasts via ARIA live regions as needed).
 - **Documentation and content**
   - Use a logical heading hierarchy (do not skip levels).
